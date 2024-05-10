@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+import Schedule from "./components/Schedule";
 
 function App() {
   return (
     <div>
       <Header />
-      <div className="flex flex-col px-4">
+      <div className="flex flex-col px-2">
         <div className="shadow">
           <h1 className="text-3xl font-bold">Master Price</h1>
         </div>
@@ -21,7 +22,7 @@ function App() {
             </h1>
           </ul>
         </div>
-        <div className="border-t border-b py-2 border-blue-950 border-solid">
+        <div className="border-t border-b py-2 border-blue-600 border-solid">
           <h1>search filters</h1>
         </div>
         <div className="py-3 flex justify-between items-center">
@@ -43,6 +44,10 @@ function App() {
           <button className="px-5 py-2 text-sm font-semibold rounded-md bg-blue-950 text-white">
             Search
           </button>
+        </div>
+        <div className="border-t border-blue-600">
+          <h1 className="text-lg font-semibold">Data parsed successfully</h1>
+          <Schedule />
         </div>
       </div>
     </div>
