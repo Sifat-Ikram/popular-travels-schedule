@@ -28,28 +28,28 @@ const Schedule = () => {
           {/* head */}
           <thead className="bg-base-300 rounded-sm">
             <tr>
-              <th>FLIGHT</th>
-              <th>AIRCRAFT</th>
-              <th>CLASS</th>
-              <th>FARE</th>
-              <th>ROUTE</th>
-              <th>DEPARTURE</th>
-              <th>ARRIVAL</th>
-              <th>DURATION</th>
-              <th>PRICE</th>
+              <th><h1 className="flex justify-center">FLIGHT</h1></th>
+              <th><h1 className="flex justify-center">AIRCRAFT</h1></th>
+              <th><h1 className="flex justify-center">CLASS</h1></th>
+              <th><h1 className="flex justify-center">FARE</h1></th>
+              <th><h1 className="flex justify-center">ROUTE</h1></th>
+              <th><h1 className="flex justify-center">DEPARTURE</h1></th>
+              <th><h1 className="flex justify-center">ARRIVAL</h1></th>
+              <th><h1 className="flex justify-center">DURATION</h1></th>
+              <th><h1 className="flex justify-center">PRICE</h1></th>
             </tr>
           </thead>
           {/* body */}
           <tbody>
             {data &&
               data.map((item, index) => (
-                <tr key={index} className={`border-b border-red-400 ${index % 2 === 0 ? "" : "bg-base-200 border-t-2 border-red-600"}`}>
+                <tr key={index} className={`border-b border-red-400 ${index % 2 === 0 ? "" : "bg-base-200 border-t border-red-400"}`}>
                   {/* flight part */}
                   <td>
                     {item.itineraries.map((itinerary, i) => (
                       <div key={i}>
                         {itinerary.segments.map((segment, j) => (
-                          <div key={j} className="flex items-center gap-2">
+                          <div key={j} className="flex justify-center items-center gap-2">
                             <h1>{segment.carrierCode}</h1>
                             <h1>{segment.aircraft}</h1>
                           </div>
@@ -62,7 +62,7 @@ const Schedule = () => {
                     {item.itineraries.map((itinerary, i) => (
                       <div key={i}>
                         {itinerary.segments.map((segment, j) => (
-                          <div key={j} className="flex items-center gap-2">
+                          <div key={j} className="flex justify-center items-center gap-2">
                             <h1>{segment.flightNumber}</h1>
                           </div>
                         ))}
@@ -81,7 +81,7 @@ const Schedule = () => {
                   {/* fare basis part */}
                   <td>
                     {item.fareBasis.map((fare, i) => (
-                      <div key={i}>
+                      <div key={i} className="flex flex-col justify-center items-center">
                         <h1>{fare[0]}</h1>
                         <h1>{fare[1]}</h1>
                       </div>
@@ -123,7 +123,7 @@ const Schedule = () => {
                         {itinerary.segments.map((segment, j) => (
                           <div key={j} className="flex flex-col items-center">
                             <div className="flex items-center gap-1">
-                              <h1>{segment.arrival.at}</h1><h1 className="ml-6">----</h1>
+                              <h1>{segment.arrival.at}</h1><h1 className="ml-10">----</h1>
                             </div>
                           </div>
                         ))}
