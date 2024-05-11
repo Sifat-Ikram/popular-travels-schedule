@@ -10,7 +10,9 @@
   <li>The whole will be seen there.</li>
 </ul>
 
-Time duration:<p>I can complete this project within a few hours but as I have more than enough time, I took more time like 1-2 days to complete this project</p>
+<span>
+<h3>Time duration:</h3><p>I can complete this project within a few hours but as I have more than enough time, I took more time like 1-2 days to complete this project</p>
+</span>
 
 <p>I have used ReactJs in this project. Other than reactJs, I have also used Tailwind CSS for design and Daisy UI to make the interface visually appealing.</p>
 
