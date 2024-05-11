@@ -1,8 +1,22 @@
-# React + Vite
+<h1>This is the Flight schedule.</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>This project is developed in ReactJs, Tailwind CSS and Daisy UI</h1>
 
-Currently, two official plugins are available:
+<h2>To run this project,</h2>
+<ul>
+  <li>At first this github repository should be cloned with command prompt</li>
+  <li>After completing cloning, npm must be installed if it is not installed earlier</li>
+  <li>After npm installed, run npm run dev. This project will be opened in localhost in the browser</li>
+  <li>The whole will be seen there.</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Time duration: I can complete this project within a few hours but as I have more than enough time, I took more time like 1-2 days to complete this project</h1>
+
+<h2>I have used ReactJs in this project. Other than reactJs, I have also used Tailwind CSS for design and Daisy UI to make the interface visually appealing.</h2>
+
+I am a MERN Stack developer. So I can develop frontend with ReactJs, VueJs or NextJs and backend with NodeJs, ExpressJs, Json Web Token with MongoDb database.
+My two best project is:
+
+Taste trail: A restaurant management website.
+Live link: https://taste-trail-web.web.app/
+Frontend github link: 
