@@ -1,6 +1,6 @@
-<h1>This is the Flight schedule.</h1>
+<h3>This is the Flight schedule.</h3>
 
-<h1>This project is developed in ReactJs, Tailwind CSS and Daisy UI</h1>
+<h3>This project is developed in ReactJs, Tailwind CSS and Daisy UI</h3>
 
 <h2>To run this project,</h2>
 <ul>
