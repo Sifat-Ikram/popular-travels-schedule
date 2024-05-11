@@ -19,10 +19,12 @@
 I am a MERN Stack developer. So I can develop frontend with ReactJs, VueJs or NextJs and backend with NodeJs, ExpressJs, Json Web Token with MongoDb database.
 My two best project is:
 
-<p>Taste trail: A restaurant management website.</p>
+<h2>Taste trail</h2>
+<p>A restaurant management website.</p>
 <p>Live link: https://taste-trail-web.web.app/</p>
 <p>Frontend github link: https://github.com/Sifat-Ikram/taste-trail-client</p>
 
-<p style="margit-top: 20px">Career Hub: A job portal website.</p>
+<h2>Career Hub:</h2>
+<p>A job portal website.</p>
 <p>Live link: https://career-hub-web.web.app/</p>
 <p>Frontend github link: https://github.com/Sifat-Ikram/career-hub-client</p>
