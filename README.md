@@ -14,8 +14,10 @@
 <h3>Time duration:</h3><p>I can complete this project within a few hours but as I have more than enough time, I took more time like 1-2 days to complete this project</p>
 </span>
 
+<h2>Technologies</h2>
 <p>I have used ReactJs in this project. Other than reactJs, I have also used Tailwind CSS for design and Daisy UI to make the interface visually appealing.</p>
 
+<h2>Best Projects</h2>
 I am a MERN Stack developer. So I can develop frontend with ReactJs, VueJs or NextJs and backend with NodeJs, ExpressJs, Json Web Token with MongoDb database.
 My two best project is:
 
