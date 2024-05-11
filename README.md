@@ -1,4 +1,4 @@
-<h3>This is the Flight schedule.</h3>
+<h3>This is the Flight schedule project.</h3>
 
 <h3>This project is developed in ReactJs, Tailwind CSS and Daisy UI</h3>
 
@@ -6,8 +6,8 @@
 <ul>
   <li>At first this github repository should be cloned with command prompt</li>
   <li>After completing cloning, npm must be installed if it is not installed earlier</li>
-  <li>After npm installed, run npm run dev. This project will be opened in localhost in the browser</li>
-  <li>The whole will be seen there.</li>
+  <li>After npm installed, run npm run dev. This project will be opened locally in localhost in the browser</li>
+  <li>The whole project will be seen there.</li>
 </ul>
 
 <span>
