@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Schedule from "./components/Schedule";
+import SearchFilter from "./components/SearchFilter";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           </ul>
         </div>
         <div className="border-t border-b py-2 border-blue-600 border-solid">
-          <h1>search filters</h1>
+          <SearchFilter />
         </div>
         <div className="py-3 flex justify-between items-center">
           <div className="flex justify-center items-center gap-2">
@@ -33,7 +34,7 @@ function App() {
           <div className="flex justify-center items-center gap-3">
             <h1 className="text-lg font-bold">Environment</h1>
             <div className="flex justify-center items-center gap-3">
-              <input type="checkbox" className="checkbox checkbox-xs" />
+              <input type="checkbox" checked className="checkbox checkbox-xs" />
               <h1 className="text-lg font-bold">Dummy</h1>
             </div>
             <div className="flex justify-center items-center gap-3">
